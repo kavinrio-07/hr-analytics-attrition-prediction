@@ -27,13 +27,7 @@ The dataset contains HR attributes such as:
 - Overtime  
 - Distance from home  
 - Years at company / Years with current manager  
-- And more...
 
-**Target variable:** `Attrition` (Yes / No)
-
-> Note: The dataset file is expected at `/data/hr_dataset.csv` (add it to the `data/` folder).
-
----
 
 ## 🛠️ Technologies Used
 - Python  
@@ -41,9 +35,8 @@ The dataset contains HR attributes such as:
 - Matplotlib, Seaborn  
 - Scikit-learn  
 - Joblib
-
+  
 ---
-
 ## 🔍 Steps Performed
 
 ### 1. Data Preprocessing
@@ -77,7 +70,4 @@ Used:
 - Random Forest achieved the best balance of accuracy and stability across cross-validation folds.
 - The saved model can be loaded to make predictions on new employee data.
 
----
-
-## 🗂️ Recommended Repository Structure
 
